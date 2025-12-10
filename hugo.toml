@@ -1,0 +1,4 @@
+baseURL = 'https://dylanrumble-smith.dev'
+languageCode = 'en-gb'
+title = 'Dylan Rumble-Smith'
+theme = 'hugo-bearblog'
