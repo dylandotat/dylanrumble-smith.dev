@@ -27,7 +27,7 @@ For my second lesson I finished the rest of the two tasks I had remaining which 
 
 ## Website Technical Details
 
-My website is using the [Hugo](https://gohugo.io) [Bear](https://themes.gohugo.io/themes/hugo-bearblog/) [theme](https://gohugo.io/about/features/#themes), it is being hosted in [Cloudflare’s](https://www.cloudflare.com) [static website](https://en.wikipedia.org/wiki/Static_web_page) hosting system called [Cloudflare Pages](https://pages.cloudflare.com).
+My website is using the [Hugo](https://gohugo.io) [Bear](https://themes.gohugo.io/themes/hugo-bearblog/) [theme](https://gohugo.io/about/features/#themes), it is being hosted in [Cloudflare](https://www.cloudflare.com)’s [static website](https://en.wikipedia.org/wiki/Static_web_page) hosting system called [Cloudflare Pages](https://pages.cloudflare.com).
 
 On every [Git](https://git-scm.com) [push](https://git-scm.com/docs/git-push) to [GitHub](https://github.com), Cloudflare checks if there is any new changes in the [working directory](https://stackoverflow.com/questions/36201342/git-where-exactly-is-the-working-directory) and if so it rebuilds with website using the [hugo build](https://gohugo.io/commands/hugo_build/) terminal command and updates [Cloudflare’s](https://www.cloudflare.com/application-services/products/cdn/) [CDN](https://en.wikipedia.org/wiki/Content_delivery_network) using the [npx](https://docs.npmjs.com/cli/v8/commands/npx) [wrangler](https://www.npmjs.com/package/wrangler) [deploy](https://developers.cloudflare.com/workers/wrangler/commands/#deploy) command.
 
